@@ -388,9 +388,41 @@ img {
 }
 @media (max-width: 500px) {
   .showcase::after {
+    background: rgba(0, 0, 0, 0.1);
     box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
   }
   .showcase-top img {
     width: 125px;
+  }
+}
+@media (max-width: 365px) {
+  .showcase::after {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
+  }
+  .showcase-content h1 {
+    font-size: 2.3rem;
+  }
+  .showcase-content p {
+    font-size: 1.1rem;
+  }
+  .btn-xl {
+    font-size: 1.1rem;
+    padding: 1rem 1.6rem;
+  }
+  .text-xl {
+    font-size: 1.2rem;
+  }
+  .text-lg {
+    font-size: 1rem;
+  }
+  .text-md {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-height: 500px) {
+  .tabs {
+    margin-top: 3rem;
   }
 }
